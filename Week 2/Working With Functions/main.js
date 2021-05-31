@@ -8,8 +8,7 @@ Follow the instructions - Create a function called "isString" that takes 3 argum
 let a;
 let b;
 let c;
-//Write your code here
-////////////////////////////////////////
+
 function isString (a,b,c)
 {
 if (typeof a === 'string'&& typeof b === 'string' && typeof c === 'string')
@@ -21,12 +20,11 @@ else
   return 'not strings';
 }
 }
-////////////////////////////////////////
 
 //open the browser console to check results
 console.log('results: ', isString('a', 'b', 'c'));
 
-//don't change this line
+
 if (typeof module !== 'undefined') {
   module.exports = isString;
 }
