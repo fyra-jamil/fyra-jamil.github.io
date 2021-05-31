@@ -4,16 +4,15 @@
 
 //Return a new 1 dimensional array like, [1,2,3,4]
 
-//your code here
 function arrayFlattener()
 {
   var ArraySample = [1.2,3,4];
   return ArraySample;
 }
-//uncomment next line one by one, then check the console for results
-// console.log(arrayFlattener([1,[2,3],4,5]))
 
-//don't change this line
+//uncomment next line one by one, then check the console for results
+console.log(arrayFlattener([1,[2,3],4,5]))
+
 if (typeof module !== "undefined") {
   module.exports = {
     arrayFlattener,
