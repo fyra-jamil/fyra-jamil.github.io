@@ -6,18 +6,13 @@ Instructions
 - Do you think both arrays have the same value in memory?
 */
 
-//write your code here
 var scottishCity = ["New Glasgow"];
 var americanCity= scottishCity;
 
-
-//////////////////////////
 //uncomment the next lines one at a time to check your results in the browser console
-//console.log(scottishCity)
-// console.log(americanCity)
+console.log(scottishCity)
+console.log(americanCity)
 
-/////////////////////////
-//don't change the code under this line
 if (typeof module !== 'undefined') {
     module.exports = {scottishCity, americanCity};
 }
