@@ -9,7 +9,7 @@ Given the function getProduct,
 */
 
 function getProduct(productId) {
-  //write your code here
+
   var obj = {
     id : productId,
     serialNumber : 'WS579000',
@@ -21,7 +21,7 @@ function getProduct(productId) {
 //open your browser console to check the results
 console.log('result: ' + JSON.stringify(getProduct(1)));
 
-//don't change this line
+
 if (typeof module !== 'undefined') {
   module.exports = getProduct;
 }
