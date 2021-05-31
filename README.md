@@ -1,30 +1,18 @@
 # fyra-jamil.github.io
 
-# Sample Project
+# Introduction
 
-This is a sample project introduction and the description of the project.
+This project is all about my participation in Professional Certificate in Coding: Women's Cohort (April 2021) prepared by the MIT
 
-## Installation
+## Installation / Requirements
 
-This is the sample installation steps:
-- Step 1
-- Step 2
-- Step 3
+ This project is required :
+ - The code-editor such as Visual Studio Code or Notepad++.
+ - Internet browser such as Google Chrome and Opera
 
-## Usage
+## Support
+If there is any question about the project, feel free to contact me via :
 
-```javascript
-import SampleProject
+Linked In : https://my.linkedin.com/in/nursyafirajamil<br/>
+Email : afirajamil@gmail.com
 
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
-```
-
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
-
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
