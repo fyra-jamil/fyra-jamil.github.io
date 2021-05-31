@@ -8,9 +8,9 @@ Create a conditional that checks if you're old enough to vote.
 */
 let response;
 let age;
-// Add your code here
+
 function isOldEnoughToVote(age) {
-  //your code goes here
+  
   // return true or false based on the age
   
   if (age > 18 || age == 18)
@@ -25,7 +25,7 @@ function isOldEnoughToVote(age) {
 
 //open the browser console to check results
 console.log('results: ', isOldEnoughToVote(18));
-// Don't edit the code below here
+
 if (typeof module !== 'undefined') {
   module.exports = isOldEnoughToVote;
 }
