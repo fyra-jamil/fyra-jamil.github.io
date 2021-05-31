@@ -14,7 +14,6 @@ function wordsToSentence(words) {
 //console log results
 console.log('results', wordsToSentence(['hey', 'there']));
 
-//don't change this line
 if (typeof module !== 'undefined') {
   module.exports = {
     wordsToSentence,
