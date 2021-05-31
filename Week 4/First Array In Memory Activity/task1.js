@@ -48,15 +48,13 @@ function addItemToFront(arr, item) {
 }
 
 //uncomment these lines to check results in browser console
-// console.log("returnFirst result:" + returnFirst(arr))
-// console.log("returnLast result:" + returnLast(arr))
-// console.log("getArrayLength result:" + getArrayLength(arr))
-// console.log("incrementByOne result:" + incrementByOne(arr))
-// console.log("addItemToArray result:" + addItemToArray(arr, 10))
-// console.log("addItemToFront result:" + addItemToFront(arr, 10))
+console.log("returnFirst result:" + returnFirst(arr))
+console.log("returnLast result:" + returnLast(arr))
+console.log("getArrayLength result:" + getArrayLength(arr))
+console.log("incrementByOne result:" + incrementByOne(arr))
+console.log("addItemToArray result:" + addItemToArray(arr, 10))
+console.log("addItemToFront result:" + addItemToFront(arr, 10))
 
-//////////////////////////////////
-//don't change this line
 if (typeof module !== 'undefined') {
   module.exports = {
     returnFirst,
