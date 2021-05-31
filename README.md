@@ -1,6 +1,6 @@
 # fyra-jamil.github.io
 
-# Introduction
+## Introduction
 
 This project is all about my participation in Professional Certificate in Coding: Women's Cohort (April 2021) prepared by the MIT
 
