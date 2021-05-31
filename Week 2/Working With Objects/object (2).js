@@ -11,14 +11,14 @@ let bike = {
 };
 
 function getBikeSpeed() {
-  //your code here
+ 
   bike.speed = 12;
   return bike.speed;
 }
 //open your browser console to check the results
 console.log('result: ' + JSON.stringify(getBikeSpeed()));
 
-//don't change this line
+
 if (typeof module !== 'undefined') {
   module.exports = getBikeSpeed;
 }
