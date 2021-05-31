@@ -1,4 +1,3 @@
-// No need to change the following code
 // The area object defines the div in which the balls will be created
 const area = {
   element: document.getElementById('area'),
@@ -6,7 +5,6 @@ const area = {
   height: 400,
 };
 
-// No need to change the following code
 // The initialize function creates the area div on the Html page
 function initialize() {
   area.element.style.width = area.width + 'px';
@@ -14,14 +12,12 @@ function initialize() {
   document.body.appendChild(area.element);
 }
 
-// No need to change the following code
 // The moveTo function moves a given ball to a set x and y coordinates on the page
 function moveTo(ball, x, y) {
   ball.element.style.left = x + 'px';
   ball.element.style.top = y + 'px';
 }
 
-// No need to change the following code
 // The changeDirectionIfNecessary function reverses the ball direction when it hits the area borders
 function changeDirectionIfNecessary(ball, x, y) {
   if (x < 0 || x > area.width - ball.width) {
@@ -41,8 +37,10 @@ function create(color, dx, dy) {
   newBall.dy = dy;
   newBall.width = 30;
   newBall.height = 30;
+  
   // TODO: set the newBall.element property and initialize it to a Html element "div"
   newBall.element = document.createElement('div');
+  
   // TODO: set the backgroundColor, width and height style properties for newBall.element
   newBall.element.style.backgroundColor = color;
   newBall.element.style.width = newBall.width + 'px';
